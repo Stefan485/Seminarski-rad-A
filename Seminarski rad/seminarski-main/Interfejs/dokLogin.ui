@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>DoktorLoginWIndow</class>
+ <widget class="QMainWindow" name="DoktorLoginWIndow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>360</width>
+    <height>390</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <pointsize>18</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Ambulanta</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="doktorLoginLabel">
+    <property name="geometry">
+     <rect>
+      <x>135</x>
+      <y>10</y>
+      <width>90</width>
+      <height>36</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Doktor</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="doktorLoginIme">
+    <property name="geometry">
+     <rect>
+      <x>11</x>
+      <y>54</y>
+      <width>42</width>
+      <height>36</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>ID:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="doktorLoginSifra">
+    <property name="geometry">
+     <rect>
+      <x>11</x>
+      <y>146</y>
+      <width>72</width>
+      <height>36</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Šifra:</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="doktor_login">
+    <property name="geometry">
+     <rect>
+      <x>115</x>
+      <y>270</y>
+      <width>130</width>
+      <height>45</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Uloguj se</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="doktor_registruj">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>320</y>
+      <width>160</width>
+      <height>45</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Registruj se</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="id_doktor_login">
+    <property name="geometry">
+     <rect>
+      <x>11</x>
+      <y>97</y>
+      <width>331</width>
+      <height>42</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="sifra_doktor_login">
+    <property name="geometry">
+     <rect>
+      <x>11</x>
+      <y>189</y>
+      <width>331</width>
+      <height>42</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="greska_doktor_log">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>240</y>
+      <width>220</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
