@@ -1,0 +1,4 @@
+12345:Stefan:šifra:
+12346:Nemanja:Sifra:
+11237:Nenad:drugaSifra:
+89657:Nikola:sifraaa:

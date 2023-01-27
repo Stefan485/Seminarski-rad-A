@@ -1,0 +1,3 @@
+12345:nekoime:sifra:
+78:imePacijenta:sifra:
+17995:ime:sifra:
